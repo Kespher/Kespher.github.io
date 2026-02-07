@@ -1,0 +1,671 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>eat福州 | 仲夏夜的银梦</title><meta name="author" content="Kespher"><meta name="copyright" content="Kespher"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="福州人的一天n餐，从早饭到甜品全攻略">
+<meta property="og:type" content="article">
+<meta property="og:title" content="eat福州">
+<meta property="og:url" content="https://kespher.github.io/2026/02/05/eat%E7%A6%8F%E5%B7%9E/index.html">
+<meta property="og:site_name" content="仲夏夜的银梦">
+<meta property="og:description" content="福州人的一天n餐，从早饭到甜品全攻略">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://image.fznews.com.cn/app/pic/2023-05/21/426563_4c58c479-b75b-4025-8f53-513ec84dc1ea.png">
+<meta property="article:published_time" content="2026-02-04T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-02-05T16:00:00.000Z">
+<meta property="article:author" content="Kespher">
+<meta property="article:tag" content="吃喝">
+<meta property="article:tag" content="福州美食">
+<meta property="article:tag" content="本地生活">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://image.fznews.com.cn/app/pic/2023-05/21/426563_4c58c479-b75b-4025-8f53-513ec84dc1ea.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "eat福州",
+  "url": "https://kespher.github.io/2026/02/05/eat%E7%A6%8F%E5%B7%9E/",
+  "image": "https://image.fznews.com.cn/app/pic/2023-05/21/426563_4c58c479-b75b-4025-8f53-513ec84dc1ea.png",
+  "datePublished": "2026-02-04T16:00:00.000Z",
+  "dateModified": "2026-02-05T16:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Kespher",
+      "url": "https://github.con/Kespher"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://kespher.github.io/2026/02/05/eat%E7%A6%8F%E5%B7%9E/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="//busuanzi.ibruce.info"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":true,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":150,"languages":{"author":"作者: Kespher","link":"链接: ","source":"来源: 仲夏夜的银梦","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'eat福州',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="仲夏夜的银梦" type="application/atom+xml">
+<script>function loadCss(l){var d=document,h=d.head,s=d.createElement('link');s.rel='stylesheet';s.href=l;!function e(f){if (d.body)return f();setTimeout(function(){e(f)})}(function(){h.appendChild(s);});}loadCss('/style.css');loadCss('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css');loadCss('https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css');</script><noscript><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css"></noscript></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (false) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div class="bg-animation" id="web_bg" style="background-image: url(/img/cover3.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://avatars.githubusercontent.com/u/63092554?v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-star"></i><span> 说说</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://youimg1.c-ctrip.com/target/10050v000000k2uhp9A35.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/favicon.png" alt="Logo"><span class="site-name">仲夏夜的银梦</span></a><a class="nav-page-title" href="/"><span class="site-name">eat福州</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-star"></i><span> 说说</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">eat福州</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-02-04T16:00:00.000Z" title="发表于 2026-02-05 00:00:00">2026-02-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-02-05T16:00:00.000Z" title="更新于 2026-02-06 00:00:00">2026-02-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">938</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2026/02/05/eat%E7%A6%8F%E5%B7%9E/#post-comment"><span id="twikoo-count"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:365,&quot;messagePrev&quot;:&quot;已经过了&quot;,&quot;messageNext&quot;:&quot;天自上次更新，文章内容可能已经过时。&quot;,&quot;postUpdate&quot;:&quot;2026-02-06 00:00:00&quot;}" hidden=""></div><p>由福州正黄旗（doge）OrangeDog 编写<br>由福州镶黄旗（doge）Kespher 排版</p>
+<hr>
+<!-- 价格标签样式 -->
+<style>
+.price-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.price-low { background-color: #4CAF50; color: white; }
+.price-medium { background-color: #FF9800; color: white; }
+.price-high { background-color: #F44336; color: white; }
+.price-mystery { background-color: #9C27B0; color: white; }
+
+.food-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.food-card h3 {
+    margin-top: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 8px;
+}
+
+.food-item {
+    margin: 10px 0;
+    padding-left: 15px;
+    border-left: 3px solid rgba(255,255,255,0.5);
+}
+
+.warning {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 10px;
+    margin: 10px 0;
+    color: #856404;
+}
+</style>
+
+<hr>
+<h2 id="🍜-一、早饭"><a href="#🍜-一、早饭" class="headerlink" title="🍜 一、早饭"></a>🍜 一、早饭</h2><h3 id="💰-低价格"><a href="#💰-低价格" class="headerlink" title="💰 低价格"></a><span class="price-tag price-low">💰 低价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">
+<h3>锅边（咸鲜口）配油条、油饼、虾酥、三角糕、马耳（甜口）</h3>
+<div class="warning">
+⚠️ 老板的手艺比较随机
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);">
+<h3>晶晶有味</h3>
+<div class="food-item">① 馒头</div>
+<div class="food-item">② 发糕</div>
+<div class="food-item">③ 菜包（有肉）</div>
+<div class="warning">
+⚠️ 福州遍地都是，但是早上会有大爷大妈抢，所以要早一点买
+</div>
+</div>
+
+<hr>
+<h3 id="💰💰-中价格"><a href="#💰💰-中价格" class="headerlink" title="💰💰 中价格"></a><span class="price-tag price-medium">💰💰 中价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);">
+<h3>麦当劳</h3>
+</div>
+
+<hr>
+<h3 id="💰💰💰-高价格"><a href="#💰💰💰-高价格" class="headerlink" title="💰💰💰 高价格"></a><span class="price-tag price-high">💰💰💰 高价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #F44336 0%, #E33A2C 100%);">
+<h3>没吃过...</h3>
+</div>
+
+<hr>
+<h2 id="🍚-二、午饭-晚饭"><a href="#🍚-二、午饭-晚饭" class="headerlink" title="🍚 二、午饭 &amp; 晚饭"></a>🍚 二、午饭 &amp; 晚饭</h2><h3 id="💰-低价格-1"><a href="#💰-低价格-1" class="headerlink" title="💰 低价格"></a><span class="price-tag price-low">💰 低价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">
+<div class="food-item">沙县小吃 / 尚干小吃</div>
+<div class="food-item">安平伊杰拌粉干</div>
+<div class="food-item">依强牛滑</div>
+<div class="food-item">达道牛滑</div>
+<div class="food-item">学军盛记</div>
+<div class="food-item">广达炖罐</div>
+<div class="food-item">淳百味</div>
+</div>
+
+<hr>
+<h3 id="💰💰-中价格-1"><a href="#💰💰-中价格-1" class="headerlink" title="💰💰 中价格"></a><span class="price-tag price-medium">💰💰 中价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);">
+<div class="food-item"><strong>① 周麻婆</strong></div>
+<div class="food-item"><strong>② 小叫天</strong></div>
+<div class="food-item"><strong>③ 醉得意</strong>（推荐荔枝肉和醉排骨）</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);">
+<h3>榕树下饭店</h3>
+<div class="food-item">① 炒白果（甜鲜口）</div>
+<div class="food-item">② 醉排骨（咸甜口）</div>
+<div class="food-item">③ 酸菜鱼（黑鱼）</div>
+<div class="warning">
+<strong>地址：</strong>鼓楼区鼓楼实验小学附近，旁边有一个金城小区
+<br>
+<strong>注：</strong>店是比较福州口味的大排档，可以一试，我个人非常喜欢
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);">
+<h3>蹄膀破店</h3>
+<div class="warning">
+<strong>注：</strong>适合多人吃
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);">
+<h3>霞浦海鲜</h3>
+<div class="warning">
+<strong>注：</strong>适合多人吃
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #3F51B5 0%, #303F9F 100%);">
+<h3>人人江记</h3>
+<div class="warning">
+<strong>注：</strong>适合多人吃
+</div>
+</div>
+
+<hr>
+<h3 id="💰💰💰💰-中高价格"><a href="#💰💰💰💰-中高价格" class="headerlink" title="💰💰💰💰 中高价格"></a><span class="price-tag price-medium">💰💰💰💰</span> <span class="price-tag price-high">中高价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);">
+<h3>朱富贵</h3>
+<div class="food-item">小火锅，主要吃肉和海鲜</div>
+<div class="warning">
+<strong>地址：</strong>我只知道东二环泰禾地下有一家，空间很大
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%);">
+<h3>筷子豪情</h3>
+<div class="food-item">和朱富贵是同类型的店</div>
+<div class="warning">
+<strong>注：</strong>筷子豪情之前是大排档，后面没钱了和人合资做的小火锅
+<br>
+⚠️ 这家人很多很挤，请谨慎选择
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #3F51B5 0%, #303F9F 100%);">
+<h3>王庄阿咪</h3>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);">
+<h3>回魏大排档</h3>
+<div class="food-item">和王庄阿咪是同类型的店</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #009688 0%, #00796B 100%);">
+<h3>同君福酒楼</h3>
+</div>
+
+<hr>
+<h3 id="💰💰💰💰💰-高价格"><a href="#💰💰💰💰💰-高价格" class="headerlink" title="💰💰💰💰💰 高价格"></a><span class="price-tag price-high">💰💰💰💰💰 高价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #F44336 0%, #E33A2C 100%);">
+<h3>海天盛宴</h3>
+<div class="food-item">海鲜火锅自助，主要吃生食和烫海鲜</div>
+<div class="warning">
+<strong>注：</strong>钱实在太多了可以试试这家，当然性价比不高
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);">
+<h3>雍和会海鲜姿造</h3>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);">
+<h3>聚春园</h3>
+</div>
+
+<hr>
+<h2 id="🥟-三、小吃"><a href="#🥟-三、小吃" class="headerlink" title="🥟 三、小吃"></a>🥟 三、小吃</h2><h3 id="💰-低价格-2"><a href="#💰-低价格-2" class="headerlink" title="💰 低价格"></a><span class="price-tag price-low">💰 低价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">
+<h3>捞化（咸鲜口）</h3>
+<div class="warning">
+我推荐东街口附近一个比较偏僻的店，找不到随便找一家吃也行
+<br>
+<strong>注：</strong>捞化 = 高汤 + 兴化粉(一种很细的米粉) + 现捞的猪肝鸭胗之类的
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #8BC34A 0%, #7CB342 100%);">
+<h3>建瓯光饼 / 征东饼</h3>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #CDDC39 0%, #C0CA33 100%);">
+<h3>碗糕 / 茯苓糕</h3>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #FFEB3B 0%, #FBC02D 100%);">
+<h3>萝卜糕 / 菜头粿</h3>
+</div>
+
+<hr>
+<h3 id="💰💰-中价格-2"><a href="#💰💰-中价格-2" class="headerlink" title="💰💰 中价格"></a><span class="price-tag price-medium">💰💰 中价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);">
+<h3>鱼丸 / 鱼滑</h3>
+<div class="warning">
+<strong>推荐：</strong>去永和鱼丸吃
+<br>
+<strong>注：</strong>想买回去吃推荐去连江鱼丸
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);">
+<h3>肉燕 / 燕丝</h3>
+<div class="warning">
+<strong>推荐：</strong>去同利肉燕吃
+</div>
+</div>
+
+<hr>
+<h3 id="💰💰💰-高价格-1"><a href="#💰💰💰-高价格-1" class="headerlink" title="💰💰💰 高价格"></a><span class="price-tag price-high">💰💰💰 高价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);">
+<h3>潮福城</h3>
+<div class="food-item">① 烤乳鸽</div>
+<div class="food-item">② 绿豆椰汁糕</div>
+<div class="food-item">③ 黑椒牛仔骨</div>
+<div class="warning">
+<strong>注：</strong>这家主要吃广式茶点，勉强可以当正餐吃
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%);">
+<h3>舒友</h3>
+<div class="food-item">和潮福城是同类型的店</div>
+</div>
+
+<hr>
+<h3 id="🔮-神秘…"><a href="#🔮-神秘…" class="headerlink" title="🔮 神秘…"></a><span class="price-tag price-mystery">🔮 神秘…</span></h3><div class="food-card" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);">
+<h3>佛跳墙</h3>
+<div class="warning">
+<strong>注：</strong>虽然不是小吃但是建议当小吃品尝一下
+<br>
+去聚春园一般能吃到，但是有点小贵而且外地人可能觉得味道一般
+</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #424242 0%, #616161 100%);">
+<h3>坛烧八味</h3>
+<div class="food-item">佛跳墙低配版，比佛跳墙便宜</div>
+</div>
+
+<hr>
+<h2 id="🥤-四、饮料"><a href="#🥤-四、饮料" class="headerlink" title="🥤 四、饮料"></a>🥤 四、饮料</h2><h3 id="💰-低价格-3"><a href="#💰-低价格-3" class="headerlink" title="💰 低价格"></a><span class="price-tag price-low">💰 低价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">
+<h3>惠尔康全家桶</h3>
+<div class="food-item">① 菊花茶</div>
+<div class="food-item">② 冬瓜茶</div>
+<div class="food-item">③ 优の冻 ...</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #8BC34A 0%, #7CB342 100%);">
+<h3>康师傅全家桶</h3>
+<div class="food-item">① 冰糖雪梨</div>
+<div class="food-item">② 酸梅汤</div>
+</div>
+
+<div class="food-card" style="background: linear-gradient(135deg, #CDDC39 0%, #C0CA33 100%);">
+<h3>贝奇野菜</h3>
+</div>
+
+<hr>
+<h3 id="💰💰-中价格-3"><a href="#💰💰-中价格-3" class="headerlink" title="💰💰 中价格"></a><span class="price-tag price-medium">💰💰 中价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);">
+<div class="food-item"><strong>喜茶：</strong>黑糖波波牛乳</div>
+<div class="food-item"><strong>奈雪的茶：</strong>果茶系列</div>
+<div class="food-item"><strong>唐沫茶兮：</strong>富裕（好像是这个音）</div>
+<div class="food-item"><strong>某有茶：</strong>黑糖珍珠奶茶</div>
+</div>
+
+<hr>
+<h3 id="💰💰💰-高价格-2"><a href="#💰💰💰-高价格-2" class="headerlink" title="💰💰💰 高价格"></a><span class="price-tag price-high">💰💰💰 高价格</span></h3><div class="food-card" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);">
+<h3>希腊奶...</h3>
+</div>
+
+<hr>
+<h2 id="🍮-五、甜品"><a href="#🍮-五、甜品" class="headerlink" title="🍮 五、甜品"></a>🍮 五、甜品</h2><!-- 甜品卡片列表 -->
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+    
+<div style="background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%); border-radius: 12px; padding: 15px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+<h4 style="margin: 0 0 10px 0;">🍠 芋泥</h4>
+</div>
+
+<div style="background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%); border-radius: 12px; padding: 15px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+<h4 style="margin: 0 0 10px 0;">🥜 没牙伯花生汤</h4>
+</div>
+
+<div style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%); border-radius: 12px; padding: 15px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+<h4 style="margin: 0 0 10px 0;">🌸 藕糕</h4>
+</div>
+
+<div style="background: linear-gradient(135deg, #673AB7 0%, #512DA8 100%); border-radius: 12px; padding: 15px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+<h4 style="margin: 0 0 10px 0;">🍪 饼夫人</h4>
+</div>
+
+<div style="background: linear-gradient(135deg, #3F51B5 0%, #303F9F 100%); border-radius: 12px; padding: 15px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+<h4 style="margin: 0 0 10px 0;">🍬 马蹄糕</h4>
+</div>
+
+<div style="background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%); border-radius: 12px; padding: 15px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
+<h4 style="margin: 0 0 10px 0;">🥣 拗九粥</h4>
+</div>
+
+</div>
+
+<hr>
+<h2 id="📌-总结"><a href="#📌-总结" class="headerlink" title="📌 总结"></a>📌 总结</h2><p>福州美食丰富多样，从街头小吃到高端餐厅应有尽有！<br>祝大家在福州吃得开心！🎉</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.con/Kespher">Kespher</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://kespher.github.io/2026/02/05/eat%E7%A6%8F%E5%B7%9E/">https://kespher.github.io/2026/02/05/eat福州/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://Kespher.github.io" target="_blank">仲夏夜的银梦</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%90%83%E5%96%9D/">吃喝</a><a class="post-meta__tags" href="/tags/%E7%A6%8F%E5%B7%9E%E7%BE%8E%E9%A3%9F/">福州美食</a><a class="post-meta__tags" href="/tags/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB/">本地生活</a></div><div class="post-share"><div class="social-share" data-image="https://image.fznews.com.cn/app/pic/2023-05/21/426563_4c58c479-b75b-4025-8f53-513ec84dc1ea.png" data-sites="facebook,x,wechat,weibo,qq"></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer=""></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/" title="如何正确且快速地安装Steam"><img class="cover" src="https://img.3dmgame.com/uploads/images/news/20210103/1609611468_810602.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">如何正确且快速地安装Steam</div></div><div class="info-2"><div class="info-item-1">包教包不会</div></div></div></a></nav><hr class="custom-hr"><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Twikoo</span><span id="switch-btn"></span><span class="second-comment">Giscus</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/63092554?v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"></div><div class="author-info-name">Kespher</div><div class="author-info-description">o(*￣▽￣*)o</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Kespher"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Kespher" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxx@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">这个人很懒，不定时更新</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%9C-%E4%B8%80%E3%80%81%E6%97%A9%E9%A5%AD"><span class="toc-number">1.</span> <span class="toc-text">🍜 一、早饭</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0-%E4%BD%8E%E4%BB%B7%E6%A0%BC"><span class="toc-number">1.1.</span> <span class="toc-text">💰 低价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">1.2.</span> <span class="toc-text">锅边（咸鲜口）配油条、油饼、虾酥、三角糕、马耳（甜口）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">1.3.</span> <span class="toc-text">晶晶有味</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0-%E4%B8%AD%E4%BB%B7%E6%A0%BC"><span class="toc-number">1.4.</span> <span class="toc-text">💰💰 中价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">1.5.</span> <span class="toc-text">麦当劳</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0-%E9%AB%98%E4%BB%B7%E6%A0%BC"><span class="toc-number">1.6.</span> <span class="toc-text">💰💰💰 高价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">1.7.</span> <span class="toc-text">没吃过...</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%9A-%E4%BA%8C%E3%80%81%E5%8D%88%E9%A5%AD-%E6%99%9A%E9%A5%AD"><span class="toc-number">2.</span> <span class="toc-text">🍚 二、午饭 &amp; 晚饭</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0-%E4%BD%8E%E4%BB%B7%E6%A0%BC-1"><span class="toc-number">2.1.</span> <span class="toc-text">💰 低价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0-%E4%B8%AD%E4%BB%B7%E6%A0%BC-1"><span class="toc-number">2.2.</span> <span class="toc-text">💰💰 中价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.3.</span> <span class="toc-text">榕树下饭店</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.4.</span> <span class="toc-text">蹄膀破店</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.5.</span> <span class="toc-text">霞浦海鲜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.6.</span> <span class="toc-text">人人江记</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0-%E4%B8%AD%E9%AB%98%E4%BB%B7%E6%A0%BC"><span class="toc-number">2.7.</span> <span class="toc-text">💰💰💰💰 中高价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.8.</span> <span class="toc-text">朱富贵</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.9.</span> <span class="toc-text">筷子豪情</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.10.</span> <span class="toc-text">王庄阿咪</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.11.</span> <span class="toc-text">回魏大排档</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.12.</span> <span class="toc-text">同君福酒楼</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0-%E9%AB%98%E4%BB%B7%E6%A0%BC"><span class="toc-number">2.13.</span> <span class="toc-text">💰💰💰💰💰 高价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.14.</span> <span class="toc-text">海天盛宴</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.15.</span> <span class="toc-text">雍和会海鲜姿造</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">2.16.</span> <span class="toc-text">聚春园</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%A5%9F-%E4%B8%89%E3%80%81%E5%B0%8F%E5%90%83"><span class="toc-number">3.</span> <span class="toc-text">🥟 三、小吃</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0-%E4%BD%8E%E4%BB%B7%E6%A0%BC-2"><span class="toc-number">3.1.</span> <span class="toc-text">💰 低价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.2.</span> <span class="toc-text">捞化（咸鲜口）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.3.</span> <span class="toc-text">建瓯光饼 / 征东饼</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.4.</span> <span class="toc-text">碗糕 / 茯苓糕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.5.</span> <span class="toc-text">萝卜糕 / 菜头粿</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0-%E4%B8%AD%E4%BB%B7%E6%A0%BC-2"><span class="toc-number">3.6.</span> <span class="toc-text">💰💰 中价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.7.</span> <span class="toc-text">鱼丸 / 鱼滑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.8.</span> <span class="toc-text">肉燕 / 燕丝</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0-%E9%AB%98%E4%BB%B7%E6%A0%BC-1"><span class="toc-number">3.9.</span> <span class="toc-text">💰💰💰 高价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.10.</span> <span class="toc-text">潮福城</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.11.</span> <span class="toc-text">舒友</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%94%AE-%E7%A5%9E%E7%A7%98%E2%80%A6"><span class="toc-number">3.12.</span> <span class="toc-text">🔮 神秘…</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.13.</span> <span class="toc-text">佛跳墙</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">3.14.</span> <span class="toc-text">坛烧八味</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%A5%A4-%E5%9B%9B%E3%80%81%E9%A5%AE%E6%96%99"><span class="toc-number">4.</span> <span class="toc-text">🥤 四、饮料</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0-%E4%BD%8E%E4%BB%B7%E6%A0%BC-3"><span class="toc-number">4.1.</span> <span class="toc-text">💰 低价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">4.2.</span> <span class="toc-text">惠尔康全家桶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">4.3.</span> <span class="toc-text">康师傅全家桶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">4.4.</span> <span class="toc-text">贝奇野菜</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0-%E4%B8%AD%E4%BB%B7%E6%A0%BC-3"><span class="toc-number">4.5.</span> <span class="toc-text">💰💰 中价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%92%B0%F0%9F%92%B0%F0%9F%92%B0-%E9%AB%98%E4%BB%B7%E6%A0%BC-2"><span class="toc-number">4.6.</span> <span class="toc-text">💰💰💰 高价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-number">4.7.</span> <span class="toc-text">希腊奶...</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%AE-%E4%BA%94%E3%80%81%E7%94%9C%E5%93%81"><span class="toc-number">5.</span> <span class="toc-text">🍮 五、甜品</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">5.0.1.</span> <span class="toc-text">🍠 芋泥</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">5.0.2.</span> <span class="toc-text">🥜 没牙伯花生汤</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">5.0.3.</span> <span class="toc-text">🌸 藕糕</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">5.0.4.</span> <span class="toc-text">🍪 饼夫人</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">5.0.5.</span> <span class="toc-text">🍬 马蹄糕</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">5.0.6.</span> <span class="toc-text">🥣 拗九粥</span></a></li></ol></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%8C-%E6%80%BB%E7%BB%93"><span class="toc-number">6.</span> <span class="toc-text">📌 总结</span></a></li></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/02/05/eat%E7%A6%8F%E5%B7%9E/" title="eat福州"><img src="https://image.fznews.com.cn/app/pic/2023-05/21/426563_4c58c479-b75b-4025-8f53-513ec84dc1ea.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="eat福州"></a><div class="content"><a class="title" href="/2026/02/05/eat%E7%A6%8F%E5%B7%9E/" title="eat福州">eat福州</a><time datetime="2026-02-04T16:00:00.000Z" title="发表于 2026-02-05 00:00:00">2026-02-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/" title="如何正确且快速地安装Steam"><img src="https://img.3dmgame.com/uploads/images/news/20210103/1609611468_810602.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何正确且快速地安装Steam"></a><div class="content"><a class="title" href="/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/" title="如何正确且快速地安装Steam">如何正确且快速地安装Steam</a><time datetime="2026-02-04T16:00:00.000Z" title="发表于 2026-02-05 00:00:00">2026-02-05</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/cover.jpg);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">©&nbsp;2026 By Kespher</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div><div class="footer_custom_text">逸久逸久罢已龄</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><div class="js-pjax"></div><script async="" data-pjax="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"></div><hr><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div></div></div><script src="/bundle.js"></script><script>(async () => {
+  const showKatex = () => {
+    document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
+  }
+
+  if (!window.katex_js_css) {
+    window.katex_js_css = true
+    await btf.getCSS('https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.css')
+    if (true) {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/contrib/copy-tex.min.js')
+    }
+  }
+
+  showKatex()
+})();
+(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: '',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: '',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    GLOBAL_CONFIG_SITE.pageType === 'post' && getCount()
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})();
+(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const createScriptElement = config => {
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => {
+      ele.setAttribute(key, value)
+    })
+    return ele
+  }
+
+  const loadGiscus = (el = document, key) => {
+    const mappingConfig = isShuoshuo
+      ? { 'data-mapping': 'specific', 'data-term': key }
+      : { 'data-mapping': (option && option['data-mapping']) || 'pathname' }
+
+    const giscusConfig = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'Kespher/Kespher.github.io',
+      'data-repo-id': '1148752745',
+      'data-category-id': 'Announcements',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      ...mappingConfig
+    }
+
+    const scriptElement = createScriptElement(giscusConfig)
+
+    el.querySelector('#giscus-wrap').appendChild(scriptElement)
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGiscus = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Giscus'
+      ? window.shuoshuoComment = { loadComment: loadGiscus }
+      : window.loadOtherComment = loadGiscus
+    return
+  }
+
+  if ('Twikoo' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment = loadGiscus
+  }
+})()</script></body></html>
