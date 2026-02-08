@@ -1,369 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>如何正确且快速地安装Steam</title>
-    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
-    <content><![CDATA[
-.step-tag {
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-right: 8px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-}
-
-.step-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 12px;
-    padding: 20px;
-    margin: 15px 0;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    color: white;
-}
-
-.step-card h3 {
-    margin-top: 0;
-    border-bottom: 2px solid rgba(255,255,255,0.3);
-    padding-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.step-item {
-    margin: 12px 0;
-    padding: 12px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 8px;
-    border-left: 4px solid white;
-}
-
-.warning {
-    background-color: #fff3cd;
-    border-left: 4px solid #ffc107;
-    padding: 12px;
-    margin: 12px 0;
-    color: #856404;
-    border-radius: 6px;
-}
-
-.success {
-    background-color: #d4edda;
-    border-left: 4px solid #28a745;
-    padding: 12px;
-    margin: 12px 0;
-    color: #155724;
-    border-radius: 6px;
-}
-
-.link-box {
-    background: rgba(255,255,255,0.15);
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px 0;
-    text-align: center;
-}
-
-.link-box a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    padding: 8px;
-    border: 1px solid #ffd700;
-    border-radius: 6px;
-    transition: all 0.3s;
-}
-
-.link-box a:hover {
-    background: rgba(255,215,0,0.2);
-    transform: scale(1.02);
-}
-
-.code-block {
-    background: #2d2d2d;
-    color: #f8f8f2;
-    padding: 15px;
-    border-radius: 8px;
-    font-family: 'Courier New', monospace;
-    margin: 10px 0;
-    overflow-x: auto;
-}
-
-
-
-🎮 Steam 安装指南
-包教包不会 👨‍🏫
-
-
-🔗 官方资源
-
-
-资源
-链接
-
-
-
-Steam 官网
-https://store.steampowered.com/
-
-
-Watt Toolkit
-https://steampp.net/
-
-
-
-📋 第一步 下载 SteamSetup.exe
-📥 下载安装程序
-
-
-👉 点击安装 Steam
-
-
-
-操作步骤：
-
-在弹窗中选择 "另存为"
-选择一个常用的路径，推荐直接保存到 D:\（即 D 盘）
-
-
-
-
-⚠️ 注意：路径不要有中文，否则会报错！
-
-
-
-
-
-⚙️ 第二步 安装 Steam
-🔧 运行安装程序
-
-
-依次点击：
-
-欢迎使用 Steam 向导：下一步
-选择语言：保证是简体中文，下一步
-选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
-运行 Steam：完成
-正在更新 Steam：等待更新结束
-
-
-
-
-✅ 安装完成后，Steam 会自动启动并开始更新，请耐心等待更新完成
-
-
-
-
-
-📥 第三步 下载 Watt Toolkit
-🚀 下载网络加速工具
-
-
-👉 访问 Watt Toolkit 官网
-
-
-
-操作步骤：
-
-点击 下载 Windows 版
-选择 Gitee 下载
-跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
-滑到最底部，找到下载下面的四行超链接
-点击下载 Steam _v3.0.0-rc.16_win_x64.exe
-同上保存到常用路径，如 D:\
-跳出弹窗：允许更改
-
-
-
-
-⚠️ 重要：Watt Toolkit（旧名 Steam++）是网络加速工具，可以帮助解决 Steam 连接问题
-
-
-
-
-
-⚙️ 第四步 安装 Watt Toolkit
-🔧 安装加速器
-
-
-操作步骤：
-
-下载完成后，打开 Steam _v3.0.0-rc.16_win_x64.exe
-Steam++ logo 页：右下角 自定义安装，千万别点立即安装！！！
-安装位置：选择一个合适的路径，推荐直接 D:\Steam++，同时创建桌面图标
-Steam++ logo 页：立即体验
-跳出弹窗：允许访问
-网络加速 → 平台加速 → Steam 服务 → 一键加速
-
-
-
-
-⚠️ 关键提示：一定要点"自定义安装"，不要点"立即安装"，否则会安装到 C 盘！
-
-
-
-✅ 安装完成后，建议先启动 Watt Toolkit 并开启 Steam 服务加速，再打开 Steam 客户端
-
-
-
-
-
-🔐 第五步 登录 Steam
-👤 创建/登录账户
-
-
-首次使用（创建账户）：
-
-安装完成后，打开 Watt Toolkit，启动加速
-再打开 Steam 客户端
-点击右边模糊二维码下方：还没有 Steam 账户？创建免费账户
-创建你的账户：自行填写，邮箱可选 QQ 邮箱以外的
-验证你的邮箱：点击 验证我的电子邮件地址
-创建您的账户：自行填写，创建成功会有提示
-
-
-
-
-已有账户（登录）：
-
-回到最开始的登录界面
-填写你的账户密码
-输入邮箱验证码
-登录成功！
-
-
-
-
-🎉 完结撒花！ 现在你可以开始在 Steam 上购买和下载游戏了！
-
-
-
-
-
-📌 常见问题
-❓ FAQ
-
-
-Q1: Steam 下载速度很慢怎么办？
-A: 使用 Watt Toolkit 的"一键加速"功能，可以显著提升下载速度
-
-
-
-Q2: 安装路径可以修改吗？
-A: 可以，但建议不要包含中文字符，避免后续出现问题
-
-
-
-Q3: Watt Toolkit 是必须的吗？
-A: 不是必须的，但强烈推荐使用，特别是网络环境不佳的情况下
-
-
-
-
-
-🎯 总结流程graph LR
-    A[下载 Steam] --&gt; B[安装 Steam]
-    B --&gt; C[下载 Watt Toolkit]
-    C --&gt; D[安装 Watt Toolkit]
-    D --&gt; E[开启加速]
-    E --&gt; F[登录 Steam]
-    F --&gt; G[开始游戏]
-
-]]></content>
-      <categories>
-        <category>安装教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Steam</tag>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>eat福州</title>
     <url>/2026/02/05/eat%E7%A6%8F%E5%B7%9E/</url>
-    <content><![CDATA[由福州正黄旗（doge）OrangeDog 编写由福州镶黄旗（doge）Kespher 排版
+    <content><![CDATA[
+  🍜 由福州正黄旗（doge）OrangeDog 编写
+  🎨 由福州镶黄旗（doge）Kespher 排版
 
 
 
-.price-tag {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: bold;
-    margin-right: 4px;
-}
-.price-low { background-color: #4CAF50; color: white; }
-.price-medium { background-color: #FF9800; color: white; }
-.price-high { background-color: #F44336; color: white; }
-.price-mystery { background-color: #9C27B0; color: white; }
-
-.food-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 12px;
-    padding: 20px;
-    margin: 15px 0;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    color: white;
-}
-
-.food-card h3 {
-    margin-top: 0;
-    border-bottom: 2px solid rgba(255,255,255,0.3);
-    padding-bottom: 8px;
-}
-
-.food-item {
-    margin: 10px 0;
-    padding-left: 15px;
-    border-left: 3px solid rgba(255,255,255,0.5);
-}
-
-.warning {
-    background-color: #fff3cd;
-    border-left: 4px solid #ffc107;
-    padding: 10px;
-    margin: 10px 0;
-    color: #856404;
-}
+一、早饭 🌅（一）低价格 💰
+  锅边（咸鲜口）配油条、油饼、虾酥、三角糕、马耳（甜口）
+  ⚠ 老板的手艺比较随机
 
 
 
-🍜 一、早饭💰 低价格
-锅边（咸鲜口）配油条、油饼、虾酥、三角糕、马耳（甜口）
-
-⚠️ 老板的手艺比较随机
+  晶晶有味：推荐①馒头、②发糕、③菜包 （有肉）
+  ⚠ 福州遍地都是，但是早上会有大爷大妈抢，所以要早一点买
 
 
 
-
-晶晶有味
-① 馒头
-② 发糕
-③ 菜包（有肉）
-
-⚠️ 福州遍地都是，但是早上会有大爷大妈抢，所以要早一点买
-
-
-
-
-💰💰 中价格
+（二）中价格 💵
 麦当劳
 
 
-
-💰💰💰 高价格
-没吃过...
-
+（三）高价格 💎
+没吃过…
 
 
-🍚 二、午饭 &amp; 晚饭💰 低价格
-沙县小吃 / 尚干小吃
+二、午饭 &#x2F; 晚饭 🍽️（一）低价格 💰
+沙县小吃 &#x2F; 尚干小吃
 安平伊杰拌粉干
 依强牛滑
 达道牛滑
@@ -372,228 +38,159 @@ A: 不是必须的，但强烈推荐使用，特别是网络环境不佳的情�
 淳百味
 
 
+（二）中价格 💵
 
-💰💰 中价格
-① 周麻婆
-② 小叫天
-③ 醉得意（推荐荔枝肉和醉排骨）
 
+店名
+推荐菜品
+备注
+
+
+
+周麻婆
+-
+-
+
+
+小叫天
+-
+-
+
+
+醉得意
+荔枝肉、醉排骨
+-
 
 
 榕树下饭店
-① 炒白果（甜鲜口）
-② 醉排骨（咸甜口）
-③ 酸菜鱼（黑鱼）
-
-地址：鼓楼区鼓楼实验小学附近，旁边有一个金城小区
-
-注：店是比较福州口味的大排档，可以一试，我个人非常喜欢
-
-
+①炒白果（甜鲜口）②醉排骨（咸甜口）③酸菜鱼（黑鱼）
+地址：鼓楼区鼓楼实验小学附近，旁边有一个金城小区注：店是比较福州口味的大排档，可以一试，我个人非常喜欢
 
 
 蹄膀破店
-
-注：适合多人吃
-
-
+-
+适合多人吃
 
 
 霞浦海鲜
-
-注：适合多人吃
-
-
+-
+适合多人吃
 
 
 人人江记
-
-注：适合多人吃
-
-
+-
+适合多人吃
 
 
-💰💰💰💰 中高价格
+
+（三）中高价格 💎
+
+
+店名
+类型
+地址&#x2F;备注
+
+
+
 朱富贵
 小火锅，主要吃肉和海鲜
-
 地址：我只知道东二环泰禾地下有一家，空间很大
-
-
 
 
 筷子豪情
 和朱富贵是同类型的店
-
-注：筷子豪情之前是大排档，后面没钱了和人合资做的小火锅
-
-⚠️ 这家人很多很挤，请谨慎选择
-
-
+⚠ 这家人很多很挤，请谨慎选择注：筷子豪情之前是大排档，后面没钱了和人合资做的小火锅
 
 
 王庄阿咪
-
+-
+-
 
 
 回魏大排档
 和王庄阿咪是同类型的店
-
+-
 
 
 同君福酒楼
+-
+-
 
 
 
-💰💰💰💰💰 高价格
-海天盛宴
-海鲜火锅自助，主要吃生食和烫海鲜
-
-注：钱实在太多了可以试试这家，当然性价比不高
-
-
-
+（四）高价格 💎💎
+海天盛宴：海鲜火锅自助，主要吃生食和烫海鲜📝 钱实在太多了可以试试这家，当然性价比不高
 
 雍和会海鲜姿造
-
-
 
 聚春园
 
 
 
-🥟 三、小吃💰 低价格
-捞化（咸鲜口）
-
-我推荐东街口附近一个比较偏僻的店，找不到随便找一家吃也行
-
-注：捞化 = 高汤 + 兴化粉(一种很细的米粉) + 现捞的猪肝鸭胗之类的
+三、小吃 🥟（一）低价格 💰
+  捞化（咸鲜口）：我推荐东街口附近一个比较偏僻的店，找不到随便找一家吃也行
+  📝 捞化 = 高汤 + 兴化粉(一种很细的米粉) + 现捞的猪肝鸭胗之类的
 
 
 
-
-建瓯光饼 / 征东饼
-
-
-
-碗糕 / 茯苓糕
+建瓯光饼 &#x2F; 征东饼
+碗糕 &#x2F; 茯苓糕
+萝卜糕 &#x2F; 菜头粿
 
 
+（二）中价格 💵
+鱼丸 &#x2F; 鱼滑：推荐去永和鱼丸吃📝 想买回去吃推荐去连江鱼丸
 
-萝卜糕 / 菜头粿
-
-
-
-💰💰 中价格
-鱼丸 / 鱼滑
-
-推荐：去永和鱼丸吃
-
-注：想买回去吃推荐去连江鱼丸
+肉燕 &#x2F; 燕丝：推荐去同利肉燕吃
 
 
 
-
-肉燕 / 燕丝
-
-推荐：去同利肉燕吃
-
+（三）高价格 💎
+  潮福城：推荐①烤乳鸽 ②绿豆椰汁糕 ③黑椒牛仔骨
+  📝 这家主要吃广式茶点，勉强可以当正餐吃
 
 
 
-💰💰💰 高价格
-潮福城
-① 烤乳鸽
-② 绿豆椰汁糕
-③ 黑椒牛仔骨
+舒友：和潮福城是同类型的店
 
-注：这家主要吃广式茶点，勉强可以当正餐吃
 
+（四）神秘… 🤫
+  佛跳墙：虽然不是小吃但是建议当小吃品尝一下
+  📝 去聚春园一般能吃到，但是有点小贵而且外地人可能觉得味道一般
 
 
 
-舒友
-和潮福城是同类型的店
+坛烧八味：佛跳墙低配版，比佛跳墙便宜
 
 
-
-🔮 神秘…
-佛跳墙
-
-注：虽然不是小吃但是建议当小吃品尝一下
-
-去聚春园一般能吃到，但是有点小贵而且外地人可能觉得味道一般
-
-
-
-
-坛烧八味
-佛跳墙低配版，比佛跳墙便宜
-
-
-
-🥤 四、饮料💰 低价格
-惠尔康全家桶
-① 菊花茶
-② 冬瓜茶
-③ 优の冻 ...
-
-
-
-康师傅全家桶
-① 冰糖雪梨
-② 酸梅汤
-
-
-
+四、饮料 🥤（一）低价格 💰
+惠尔康全家桶：①菊花茶 ②冬瓜茶 ③优の冻 …
+康师傅全家桶：①冰糖雪梨 ②酸梅汤
 贝奇野菜
 
 
-
-💰💰 中价格
+（二）中价格 💵
 喜茶：黑糖波波牛乳
 奈雪的茶：果茶系列
 唐沫茶兮：富裕（好像是这个音）
 某有茶：黑糖珍珠奶茶
 
 
-
-💰💰💰 高价格
-希腊奶...
-
+（三）高价格 💎
+希腊奶…
 
 
-🍮 五、甜品
-
-    
-
-🍠 芋泥
-
-
-
-🥜 没牙伯花生汤
+五、甜品 🍰
+芋泥
+没牙伯花生汤
+藕糕
+饼夫人
+马蹄糕
+拗九粥
 
 
 
-🌸 藕糕
-
-
-
-🍪 饼夫人
-
-
-
-🍬 马蹄糕
-
-
-
-🥣 拗九粥
-
-
-
-
-
-📌 总结福州美食丰富多样，从街头小吃到高端餐厅应有尽有！祝大家在福州吃得开心！🎉
+  🎉 福州美食，等你来尝！
 ]]></content>
       <categories>
         <category>生活记录</category>
@@ -602,6 +199,149 @@ A: 不是必须的，但强烈推荐使用，特别是网络环境不佳的情�
         <tag>吃喝</tag>
         <tag>福州美食</tag>
         <tag>本地生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何正确且快速地安装Steam</title>
+    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
+    <content><![CDATA[
+  🎮 Steam 安装完全指南
+  📝 包教包不会，跟着做就对了！
+
+
+
+🌐 Steam 官网https://store.steampowered.com/
+
+一、下载 SteamSetup.exe 📥
+  下载地址：https://store.steampowered.com/about/
+
+
+操作步骤：
+点击 “安装Steam”
+在弹窗中选择 “另存为”
+选择一个常用的路径，推荐直接保存到 D:\（即D盘）
+
+
+⚠️ 重要提醒
+  ⚠ 路径不要有中文，否则会报错！
+
+
+
+二、安装 Steam 🛠️
+  下载完成后，打开 SteamSetup.exe，依次点击：
+
+
+安装流程：
+
+
+步骤
+操作
+
+
+
+1
+欢迎使用Steam向导：下一步
+
+
+2
+选择语言：保证是简体中文，下一步
+
+
+3
+选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
+
+
+4
+运行Steam：完成
+
+
+5
+正在更新Steam：等待更新结束
+
+
+
+三、下载 Steam_v3.0.0-rc.16_win_x64.exe 📦
+  下载地址：https://steampp.net/
+
+
+操作步骤：
+点击 “下载Windows版”
+选择 “Gitee 下载”
+跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
+滑到最底部，找到下载下面的四行超链接
+点击下载 Steam_v3.0.0-rc.16_win_x64.exe
+同上保存到常用路径，如 D:\
+跳出弹窗：允许更改
+
+
+四、安装 Watt Toolkit（旧名 Steam++）🔧
+  下载完成后，打开 Steam_v3.0.0-rc.16_win_x64.exe，依次点击：
+
+
+安装流程：
+
+
+步骤
+操作
+备注
+
+
+
+1
+Steam++ logo页：右下角自定义安装
+⚠ 千万别点”立即安装”！！！
+
+
+2
+安装位置：选择一个合适的路径
+推荐直接 D:\Steam++，同时创建桌面图标
+
+
+3
+Steam++ logo页：立即体验
+-
+
+
+4
+跳出弹窗：允许访问
+-
+
+
+
+⚙️ 启动加速
+  ✅ 网络加速 → 平台加速 → Steam服务 → 一键加速
+
+
+
+五、登录 Steam 🔐
+  安装完成后，打开 Watt Toolkit，启动加速，再打开 Steam 客户端，依次点击：
+
+
+账号创建流程：
+右边模糊二维码下方：还没有 Steam 账户？创建免费账户
+创建你的账户：自行填写，邮箱可选QQ邮箱以外的
+验证你的邮箱：点击 “验证我的电子邮件地址”
+创建您的账户：自行填写，创建成功会有提示
+回到最开始的登录界面：填写你的账户密码，然后输入邮箱验证码
+登录成功！
+
+
+📝 邮箱选择建议
+  💡 邮箱选择：建议使用 Gmail、Outlook 等国际邮箱，避免使用 QQ 邮箱可能带来的验证问题。
+
+
+
+
+  🎉 完结撒花！
+  Steam 已成功安装并登录，开始你的游戏之旅吧！
+]]></content>
+      <categories>
+        <category>安装教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Steam</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
 </search>
