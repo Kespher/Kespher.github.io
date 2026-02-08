@@ -1,6 +1,289 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>如何正确且快速地安装Steam</title>
+    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
+    <content><![CDATA[
+.step-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.step-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.step-card h3 {
+    margin-top: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.step-item {
+    margin: 12px 0;
+    padding: 12px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    border-left: 4px solid white;
+}
+
+.warning {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 12px;
+    margin: 12px 0;
+    color: #856404;
+    border-radius: 6px;
+}
+
+.success {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    padding: 12px;
+    margin: 12px 0;
+    color: #155724;
+    border-radius: 6px;
+}
+
+.link-box {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.link-box a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ffd700;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.link-box a:hover {
+    background: rgba(255,215,0,0.2);
+    transform: scale(1.02);
+}
+
+.code-block {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+
+
+
+🎮 Steam 安装指南
+包教包不会 👨‍🏫
+
+
+🔗 官方资源
+
+
+资源
+链接
+
+
+
+Steam 官网
+https://store.steampowered.com/
+
+
+Watt Toolkit
+https://steampp.net/
+
+
+
+📋 第一步 下载 SteamSetup.exe
+📥 下载安装程序
+
+
+👉 点击安装 Steam
+
+
+
+操作步骤：
+
+在弹窗中选择 "另存为"
+选择一个常用的路径，推荐直接保存到 D:\（即 D 盘）
+
+
+
+
+⚠️ 注意：路径不要有中文，否则会报错！
+
+
+
+
+
+⚙️ 第二步 安装 Steam
+🔧 运行安装程序
+
+
+依次点击：
+
+欢迎使用 Steam 向导：下一步
+选择语言：保证是简体中文，下一步
+选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
+运行 Steam：完成
+正在更新 Steam：等待更新结束
+
+
+
+
+✅ 安装完成后，Steam 会自动启动并开始更新，请耐心等待更新完成
+
+
+
+
+
+📥 第三步 下载 Watt Toolkit
+🚀 下载网络加速工具
+
+
+👉 访问 Watt Toolkit 官网
+
+
+
+操作步骤：
+
+点击 下载 Windows 版
+选择 Gitee 下载
+跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
+滑到最底部，找到下载下面的四行超链接
+点击下载 Steam _v3.0.0-rc.16_win_x64.exe
+同上保存到常用路径，如 D:\
+跳出弹窗：允许更改
+
+
+
+
+⚠️ 重要：Watt Toolkit（旧名 Steam++）是网络加速工具，可以帮助解决 Steam 连接问题
+
+
+
+
+
+⚙️ 第四步 安装 Watt Toolkit
+🔧 安装加速器
+
+
+操作步骤：
+
+下载完成后，打开 Steam _v3.0.0-rc.16_win_x64.exe
+Steam++ logo 页：右下角 自定义安装，千万别点立即安装！！！
+安装位置：选择一个合适的路径，推荐直接 D:\Steam++，同时创建桌面图标
+Steam++ logo 页：立即体验
+跳出弹窗：允许访问
+网络加速 → 平台加速 → Steam 服务 → 一键加速
+
+
+
+
+⚠️ 关键提示：一定要点"自定义安装"，不要点"立即安装"，否则会安装到 C 盘！
+
+
+
+✅ 安装完成后，建议先启动 Watt Toolkit 并开启 Steam 服务加速，再打开 Steam 客户端
+
+
+
+
+
+🔐 第五步 登录 Steam
+👤 创建/登录账户
+
+
+首次使用（创建账户）：
+
+安装完成后，打开 Watt Toolkit，启动加速
+再打开 Steam 客户端
+点击右边模糊二维码下方：还没有 Steam 账户？创建免费账户
+创建你的账户：自行填写，邮箱可选 QQ 邮箱以外的
+验证你的邮箱：点击 验证我的电子邮件地址
+创建您的账户：自行填写，创建成功会有提示
+
+
+
+
+已有账户（登录）：
+
+回到最开始的登录界面
+填写你的账户密码
+输入邮箱验证码
+登录成功！
+
+
+
+
+🎉 完结撒花！ 现在你可以开始在 Steam 上购买和下载游戏了！
+
+
+
+
+
+📌 常见问题
+❓ FAQ
+
+
+Q1: Steam 下载速度很慢怎么办？
+A: 使用 Watt Toolkit 的"一键加速"功能，可以显著提升下载速度
+
+
+
+Q2: 安装路径可以修改吗？
+A: 可以，但建议不要包含中文字符，避免后续出现问题
+
+
+
+Q3: Watt Toolkit 是必须的吗？
+A: 不是必须的，但强烈推荐使用，特别是网络环境不佳的情况下
+
+
+
+
+
+🎯 总结流程graph LR
+    A[下载 Steam] --&gt; B[安装 Steam]
+    B --&gt; C[下载 Watt Toolkit]
+    C --&gt; D[安装 Watt Toolkit]
+    D --&gt; E[开启加速]
+    E --&gt; F[登录 Steam]
+    F --&gt; G[开始游戏]
+
+]]></content>
+      <categories>
+        <category>安装教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Steam</tag>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>eat福州</title>
     <url>/2026/02/05/eat%E7%A6%8F%E5%B7%9E/</url>
     <content><![CDATA[由福州正黄旗（doge）OrangeDog 编写由福州镶黄旗（doge）Kespher 排版
@@ -319,289 +602,6 @@
         <tag>吃喝</tag>
         <tag>福州美食</tag>
         <tag>本地生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何正确且快速地安装Steam</title>
-    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%B8%94%E5%BF%AB%E9%80%9F%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
-    <content><![CDATA[
-.step-tag {
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-right: 8px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-}
-
-.step-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 12px;
-    padding: 20px;
-    margin: 15px 0;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    color: white;
-}
-
-.step-card h3 {
-    margin-top: 0;
-    border-bottom: 2px solid rgba(255,255,255,0.3);
-    padding-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.step-item {
-    margin: 12px 0;
-    padding: 12px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 8px;
-    border-left: 4px solid white;
-}
-
-.warning {
-    background-color: #fff3cd;
-    border-left: 4px solid #ffc107;
-    padding: 12px;
-    margin: 12px 0;
-    color: #856404;
-    border-radius: 6px;
-}
-
-.success {
-    background-color: #d4edda;
-    border-left: 4px solid #28a745;
-    padding: 12px;
-    margin: 12px 0;
-    color: #155724;
-    border-radius: 6px;
-}
-
-.link-box {
-    background: rgba(255,255,255,0.15);
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px 0;
-    text-align: center;
-}
-
-.link-box a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    padding: 8px;
-    border: 1px solid #ffd700;
-    border-radius: 6px;
-    transition: all 0.3s;
-}
-
-.link-box a:hover {
-    background: rgba(255,215,0,0.2);
-    transform: scale(1.02);
-}
-
-.code-block {
-    background: #2d2d2d;
-    color: #f8f8f2;
-    padding: 15px;
-    border-radius: 8px;
-    font-family: 'Courier New', monospace;
-    margin: 10px 0;
-    overflow-x: auto;
-}
-
-
-
-🎮 Steam 安装指南
-包教包不会 👨‍🏫
-
-
-🔗 官方资源
-
-
-资源
-链接
-
-
-
-Steam 官网
-https://store.steampowered.com/
-
-
-Watt Toolkit
-https://steampp.net/
-
-
-
-📋 第一步 下载 SteamSetup.exe
-📥 下载安装程序
-
-
-👉 点击安装 Steam
-
-
-
-操作步骤：
-
-在弹窗中选择 "另存为"
-选择一个常用的路径，推荐直接保存到 D:\（即 D 盘）
-
-
-
-
-⚠️ 注意：路径不要有中文，否则会报错！
-
-
-
-
-
-⚙️ 第二步 安装 Steam
-🔧 运行安装程序
-
-
-依次点击：
-
-欢迎使用 Steam 向导：下一步
-选择语言：保证是简体中文，下一步
-选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
-运行 Steam：完成
-正在更新 Steam：等待更新结束
-
-
-
-
-✅ 安装完成后，Steam 会自动启动并开始更新，请耐心等待更新完成
-
-
-
-
-
-📥 第三步 下载 Watt Toolkit
-🚀 下载网络加速工具
-
-
-👉 访问 Watt Toolkit 官网
-
-
-
-操作步骤：
-
-点击 下载 Windows 版
-选择 Gitee 下载
-跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
-滑到最底部，找到下载下面的四行超链接
-点击下载 Steam _v3.0.0-rc.16_win_x64.exe
-同上保存到常用路径，如 D:\
-跳出弹窗：允许更改
-
-
-
-
-⚠️ 重要：Watt Toolkit（旧名 Steam++）是网络加速工具，可以帮助解决 Steam 连接问题
-
-
-
-
-
-⚙️ 第四步 安装 Watt Toolkit
-🔧 安装加速器
-
-
-操作步骤：
-
-下载完成后，打开 Steam _v3.0.0-rc.16_win_x64.exe
-Steam++ logo 页：右下角 自定义安装，千万别点立即安装！！！
-安装位置：选择一个合适的路径，推荐直接 D:\Steam++，同时创建桌面图标
-Steam++ logo 页：立即体验
-跳出弹窗：允许访问
-网络加速 → 平台加速 → Steam 服务 → 一键加速
-
-
-
-
-⚠️ 关键提示：一定要点"自定义安装"，不要点"立即安装"，否则会安装到 C 盘！
-
-
-
-✅ 安装完成后，建议先启动 Watt Toolkit 并开启 Steam 服务加速，再打开 Steam 客户端
-
-
-
-
-
-🔐 第五步 登录 Steam
-👤 创建/登录账户
-
-
-首次使用（创建账户）：
-
-安装完成后，打开 Watt Toolkit，启动加速
-再打开 Steam 客户端
-点击右边模糊二维码下方：还没有 Steam 账户？创建免费账户
-创建你的账户：自行填写，邮箱可选 QQ 邮箱以外的
-验证你的邮箱：点击 验证我的电子邮件地址
-创建您的账户：自行填写，创建成功会有提示
-
-
-
-
-已有账户（登录）：
-
-回到最开始的登录界面
-填写你的账户密码
-输入邮箱验证码
-登录成功！
-
-
-
-
-🎉 完结撒花！ 现在你可以开始在 Steam 上购买和下载游戏了！
-
-
-
-
-
-📌 常见问题
-❓ FAQ
-
-
-Q1: Steam 下载速度很慢怎么办？
-A: 使用 Watt Toolkit 的"一键加速"功能，可以显著提升下载速度
-
-
-
-Q2: 安装路径可以修改吗？
-A: 可以，但建议不要包含中文字符，避免后续出现问题
-
-
-
-Q3: Watt Toolkit 是必须的吗？
-A: 不是必须的，但强烈推荐使用，特别是网络环境不佳的情况下
-
-
-
-
-
-🎯 总结流程graph LR
-    A[下载 Steam] --&gt; B[安装 Steam]
-    B --&gt; C[下载 Watt Toolkit]
-    C --&gt; D[安装 Watt Toolkit]
-    D --&gt; E[开启加速]
-    E --&gt; F[登录 Steam]
-    F --&gt; G[开始游戏]
-
-]]></content>
-      <categories>
-        <category>安装教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Steam</tag>
-        <tag>游戏</tag>
       </tags>
   </entry>
 </search>
