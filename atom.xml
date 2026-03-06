@@ -6,7 +6,7 @@
   <link href="https://kespher.github.io/atom.xml" rel="self"/>
   
   <link href="https://kespher.github.io/"/>
-  <updated>2026-03-05T06:16:34.576Z</updated>
+  <updated>2026-03-06T03:40:57.841Z</updated>
   <id>https://kespher.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://kespher.github.io/2026/03/05/Android%20Studio%20%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%E5%B0%8F%E8%AE%B0/"/>
     <id>https://kespher.github.io/2026/03/05/Android%20Studio%20%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%E5%B0%8F%E8%AE%B0/</id>
     <published>2026-03-05T06:00:00.000Z</published>
-    <updated>2026-03-05T06:16:34.576Z</updated>
+    <updated>2026-03-06T03:40:57.841Z</updated>
     
     
     <summary type="html">包教包不会，跟着做就对了！</summary>
@@ -31,11 +31,7 @@
     <category term="新手教程" scheme="https://kespher.github.io/categories/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://kespher.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Android Studio" scheme="https://kespher.github.io/tags/Android-Studio/"/>
-    
-    <category term="软件开发" scheme="https://kespher.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
@@ -54,11 +50,9 @@
     <category term="生活记录" scheme="https://kespher.github.io/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="吃喝" scheme="https://kespher.github.io/tags/%E5%90%83%E5%96%9D/"/>
+    <category term="福州" scheme="https://kespher.github.io/tags/%E7%A6%8F%E5%B7%9E/"/>
     
-    <category term="福州美食" scheme="https://kespher.github.io/tags/%E7%A6%8F%E5%B7%9E%E7%BE%8E%E9%A3%9F/"/>
-    
-    <category term="本地生活" scheme="https://kespher.github.io/tags/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB/"/>
+    <category term="美食" scheme="https://kespher.github.io/tags/%E7%BE%8E%E9%A3%9F/"/>
     
   </entry>
   
@@ -77,11 +71,7 @@
     <category term="新手教程" scheme="https://kespher.github.io/categories/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://kespher.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Steam" scheme="https://kespher.github.io/tags/Steam/"/>
-    
-    <category term="游戏" scheme="https://kespher.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   

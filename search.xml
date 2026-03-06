@@ -7,7 +7,116 @@
 步骤 0：环境准备 📥
 工欲善其事，必先利其器。开始前请确保以下环境配置完毕：
 
-…  ✅ 基础 Android App 开发  ✅ SDK 模块封装与调用  ✅ AAR 打包与手动集成
+
+  JDK 配置： 参考 B 站视频 【2024 最新版】jdk21 和 jdk1.8 的下载安装与配置
+  Android Studio： 参考 CSDN 教程 Android Studio 安装配置教程 - Windows(详细版)
+
+
+
+  ⚠️ 重要提醒： 251 版本的 Android Studio 的 Gradlew 需要 JDK 的版本至少为 jdk-17
+
+
+步骤 1：创建最基础的 Android APP 📱
+新建项目并运行一个 "Hello World" 界面。
+
+
+  
+    步骤
+    操作
+  
+  
+    1
+    打开 Android Studio → New Project → Empty Views Activity (可选 Java)
+  
+  
+    2
+    设置项目名称：MyFirstApp，语言选择：Java
+  
+  
+    3
+    最低 API Level：选择 API 21 (Android 5.0)
+  
+  
+    4
+    运行基础界面，确认显示 "Hello World!"
+  
+
+
+代码示例 (activity_main.xml)：
+&lt;TextView
+    android:id="@+id/helloText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World!"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" /&gt;
+
+步骤 1.5：汉化 Android Studio 🌏
+
+  💡 小贴士： 251 版本官网插件最高只到 242 版本。建议在 GitHub 搜索 AndroidStudioChineseLanguagePack，下载 242 版本补丁，可兼容 251 版本。
+
+
+步骤 2：封装 SDK 📦
+SDK (Software Development Kit) 即软件开发工具包。我们将创建一个 Library 模块。
+
+
+  创建模块： 文件 (File) → 新建 (New) → New Module → Android Library
+  名称： mylibrary (默认包名 com.example.mylibrary)
+  编写代码： 新建 Java 类 TextUtils
+
+
+public static String createWelcomeMessage(String name) &#123;
+    return "Welcome, " + name + "! (From SDK)";
+&#125;
+
+步骤 3：主工程调用 SDK 🔗
+在主工程中依赖刚才创建的 SDK 模块。
+
+1. 添加依赖 (build.gradle Module: app)：
+dependencies &#123;
+    implementation project(':mylibrary') // 添加这一行
+    // 其他依赖...
+&#125;
+⚠️ 修改 gradle 文件后记得点击 Sync Now 进行同步。
+
+2. 调用方法 (MainActivity.java)：
+import com.example.mylibrary.TextUtils;
+
+&#x2F;&#x2F; …TextView textView &#x3D; findViewById(R.id.helloText);String welcomeMsg &#x3D; TextUtils.createWelcomeMessage(“Android Developer”);textView.setText(welcomeMsg);
+步骤 4：导出 SDK 为 AAR 文件 📤
+AAR (Android Archive) 是一种打包 SDK 文件的格式，方便分享给他人使用。
+
+
+  
+    操作
+    命令/配置
+  
+  
+    生成 AAR
+    ./gradlew :mylibrary:assembleRelease
+  
+  
+    拷贝文件
+    将 mylibrary-release.aar 拷至 app/libs 文件夹
+  
+  
+    修改依赖
+    implementation files('libs/mylibrary-release.aar')
+  
+  
+    配置仓库
+    在 settings.gradle 中添加 flatDir &#123; dirs 'app/libs' &#125;
+  
+
+
+📝 总结
+通过以上步骤，你可以完成：
+
+  ✅ 基础 Android App 开发
+  ✅ SDK 模块封装与调用
+  ✅ AAR 打包与手动集成
 
 
 
@@ -17,16 +126,14 @@
         <category>新手教程</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>Android Studio</tag>
-        <tag>软件开发</tag>
       </tags>
   </entry>
   <entry>
     <title>eat福州</title>
     <url>/2026/02/05/eat%E7%A6%8F%E5%B7%9E/</url>
     <content><![CDATA[
-  🍜 由福州正黄旗（doge）OrangeDog 编写
+  🍜 由福州正黄旗（doge）OrangeDog0415 编写
   🎨 由福州镶黄旗（doge）Kespher 排版
 
 
@@ -218,9 +325,8 @@
         <category>生活记录</category>
       </categories>
       <tags>
-        <tag>吃喝</tag>
-        <tag>福州美食</tag>
-        <tag>本地生活</tag>
+        <tag>福州</tag>
+        <tag>美食</tag>
       </tags>
   </entry>
   <entry>
@@ -361,9 +467,7 @@ Steam++ logo页：立即体验
         <category>新手教程</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>Steam</tag>
-        <tag>游戏</tag>
       </tags>
   </entry>
 </search>
