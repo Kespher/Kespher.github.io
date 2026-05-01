@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kespher.github.io/categories/index.html</loc>
+    
+    <lastmod>2026-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kespher.github.io/tags/index.html</loc>
+    
+    <lastmod>2026-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kespher.github.io/2026/03/05/Android%20Studio%20%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%E5%B0%8F%E8%AE%B0/</loc>
     
     <lastmod>2026-03-06</lastmod>
@@ -47,25 +65,7 @@
   </url>
   
   <url>
-    <loc>https://kespher.github.io/tags/index.html</loc>
-    
-    <lastmod>2026-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://kespher.github.io/link/index.html</loc>
-    
-    <lastmod>2026-02-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://kespher.github.io/categories/index.html</loc>
     
     <lastmod>2026-02-04</lastmod>
     
