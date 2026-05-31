@@ -1,276 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Android Studio 新手上路小记</title>
-    <url>/2026/03/05/Android%20Studio%20%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%E5%B0%8F%E8%AE%B0/</url>
-    <content><![CDATA[🤖 Android Studio 新手上路小记📝 包教包不会，跟着做就对了！
-步骤 0：环境准备 📥
-工欲善其事，必先利其器。开始前请确保以下环境配置完毕：
-
-
-  JDK 配置： 参考 B 站视频 【2024 最新版】jdk21 和 jdk1.8 的下载安装与配置
-  Android Studio： 参考 CSDN 教程 Android Studio 安装配置教程 - Windows(详细版)
-
-
-
-  ⚠️ 重要提醒： 251 版本的 Android Studio 的 Gradlew 需要 JDK 的版本至少为 jdk-17
-
-
-步骤 1：创建最基础的 Android APP 📱
-新建项目并运行一个 "Hello World" 界面。
-
-
-  
-    步骤
-    操作
-  
-  
-    1
-    打开 Android Studio → New Project → Empty Views Activity (可选 Java)
-  
-  
-    2
-    设置项目名称：MyFirstApp，语言选择：Java
-  
-  
-    3
-    最低 API Level：选择 API 21 (Android 5.0)
-  
-  
-    4
-    运行基础界面，确认显示 "Hello World!"
-  
-
-
-代码示例 (activity_main.xml)：
-&lt;TextView
-    android:id="@+id/helloText"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello World!"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" /&gt;
-
-步骤 1.5：汉化 Android Studio 🌏
-
-  💡 小贴士： 251 版本官网插件最高只到 242 版本。建议在 GitHub 搜索 AndroidStudioChineseLanguagePack，下载 242 版本补丁，可兼容 251 版本。
-
-
-步骤 2：封装 SDK 📦
-SDK (Software Development Kit) 即软件开发工具包。我们将创建一个 Library 模块。
-
-
-  创建模块： 文件 (File) → 新建 (New) → New Module → Android Library
-  名称： mylibrary (默认包名 com.example.mylibrary)
-  编写代码： 新建 Java 类 TextUtils
-
-
-public static String createWelcomeMessage(String name) &#123;
-    return "Welcome, " + name + "! (From SDK)";
-&#125;
-
-步骤 3：主工程调用 SDK 🔗
-在主工程中依赖刚才创建的 SDK 模块。
-
-1. 添加依赖 (build.gradle Module: app)：
-dependencies &#123;
-    implementation project(':mylibrary') // 添加这一行
-    // 其他依赖...
-&#125;
-⚠️ 修改 gradle 文件后记得点击 Sync Now 进行同步。
-
-2. 调用方法 (MainActivity.java)：
-import com.example.mylibrary.TextUtils;
-
-&#x2F;&#x2F; …TextView textView &#x3D; findViewById(R.id.helloText);String welcomeMsg &#x3D; TextUtils.createWelcomeMessage(“Android Developer”);textView.setText(welcomeMsg);
-步骤 4：导出 SDK 为 AAR 文件 📤
-AAR (Android Archive) 是一种打包 SDK 文件的格式，方便分享给他人使用。
-
-
-  
-    操作
-    命令/配置
-  
-  
-    生成 AAR
-    ./gradlew :mylibrary:assembleRelease
-  
-  
-    拷贝文件
-    将 mylibrary-release.aar 拷至 app/libs 文件夹
-  
-  
-    修改依赖
-    implementation files('libs/mylibrary-release.aar')
-  
-  
-    配置仓库
-    在 settings.gradle 中添加 flatDir &#123; dirs 'app/libs' &#125;
-  
-
-
-📝 总结
-通过以上步骤，你可以完成：
-
-  ✅ 基础 Android App 开发
-  ✅ SDK 模块封装与调用
-  ✅ AAR 打包与手动集成
-
-
-
-  🎉 完结撒花！Android 开发之旅正式开始！
-]]></content>
-      <categories>
-        <category>新手教程</category>
-      </categories>
-      <tags>
-        <tag>Android Studio</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何优雅地安装Steam</title>
-    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
-    <content><![CDATA[
-  🎮 Steam 安装完全指南
-  📝 包教包不会，跟着做就对了！
-
-
-
-🌐 Steam 官网https://store.steampowered.com/
-
-一、下载 SteamSetup.exe 📥
-  下载地址：https://store.steampowered.com/about/
-
-
-操作步骤：
-点击 “安装Steam”
-在弹窗中选择 “另存为”
-选择一个常用的路径，推荐直接保存到 D:\（即D盘）
-
-
-⚠️ 重要提醒
-  ⚠ 路径不要有中文，否则会报错！
-
-
-
-二、安装 Steam 🛠️
-  下载完成后，打开 SteamSetup.exe，依次点击：
-
-
-安装流程：
-
-
-步骤
-操作
-
-
-
-1
-欢迎使用Steam向导：下一步
-
-
-2
-选择语言：保证是简体中文，下一步
-
-
-3
-选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
-
-
-4
-运行Steam：完成
-
-
-5
-正在更新Steam：等待更新结束
-
-
-
-三、下载 Steam_v3.0.0-rc.16_win_x64.exe 📦
-  下载地址：https://steampp.net/
-
-
-操作步骤：
-点击 “下载Windows版”
-选择 “Gitee 下载”
-跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
-滑到最底部，找到下载下面的四行超链接
-点击下载 Steam_v3.0.0-rc.16_win_x64.exe
-同上保存到常用路径，如 D:\
-跳出弹窗：允许更改
-
-
-四、安装 Watt Toolkit（旧名 Steam++）🔧
-  下载完成后，打开 Steam_v3.0.0-rc.16_win_x64.exe，依次点击：
-
-
-安装流程：
-
-
-步骤
-操作
-备注
-
-
-
-1
-Steam++ logo页：右下角自定义安装
-⚠ 千万别点”立即安装”！！！
-
-
-2
-安装位置：选择一个合适的路径
-推荐直接 D:\Steam++，同时创建桌面图标
-
-
-3
-Steam++ logo页：立即体验
--
-
-
-4
-跳出弹窗：允许访问
--
-
-
-
-⚙️ 启动加速
-  ✅ 网络加速 → 平台加速 → Steam服务 → 一键加速
-
-
-
-五、登录 Steam 🔐
-  安装完成后，打开 Watt Toolkit，启动加速，再打开 Steam 客户端，依次点击：
-
-
-账号创建流程：
-右边模糊二维码下方：还没有 Steam 账户？创建免费账户
-创建你的账户：自行填写，邮箱可选QQ邮箱以外的
-验证你的邮箱：点击 “验证我的电子邮件地址”
-创建您的账户：自行填写，创建成功会有提示
-回到最开始的登录界面：填写你的账户密码，然后输入邮箱验证码
-登录成功！
-
-
-📝 邮箱选择建议
-  💡 邮箱选择：建议使用 Gmail、Outlook 等国际邮箱，避免使用 QQ 邮箱可能带来的验证问题。
-
-
-
-
-  🎉 完结撒花！
-  Steam 已成功安装并登录，开始你的游戏之旅吧！
-]]></content>
-      <categories>
-        <category>新手教程</category>
-      </categories>
-      <tags>
-        <tag>Steam</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>eat福州</title>
     <url>/2026/02/05/eat%E7%A6%8F%E5%B7%9E/</url>
     <content><![CDATA[
@@ -471,6 +201,135 @@ Steam++ logo页：立即体验
       </tags>
   </entry>
   <entry>
+    <title>Android Studio 新手上路小记</title>
+    <url>/2026/03/05/Android%20Studio%20%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[🤖 Android Studio 新手上路小记📝 包教包不会，跟着做就对了！
+步骤 0：环境准备 📥
+工欲善其事，必先利其器。开始前请确保以下环境配置完毕：
+
+
+  JDK 配置： 参考 B 站视频 【2024 最新版】jdk21 和 jdk1.8 的下载安装与配置
+  Android Studio： 参考 CSDN 教程 Android Studio 安装配置教程 - Windows(详细版)
+
+
+
+  ⚠️ 重要提醒： 251 版本的 Android Studio 的 Gradlew 需要 JDK 的版本至少为 jdk-17
+
+
+步骤 1：创建最基础的 Android APP 📱
+新建项目并运行一个 "Hello World" 界面。
+
+
+  
+    步骤
+    操作
+  
+  
+    1
+    打开 Android Studio → New Project → Empty Views Activity (可选 Java)
+  
+  
+    2
+    设置项目名称：MyFirstApp，语言选择：Java
+  
+  
+    3
+    最低 API Level：选择 API 21 (Android 5.0)
+  
+  
+    4
+    运行基础界面，确认显示 "Hello World!"
+  
+
+
+代码示例 (activity_main.xml)：
+&lt;TextView
+    android:id="@+id/helloText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World!"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" /&gt;
+
+步骤 1.5：汉化 Android Studio 🌏
+
+  💡 小贴士： 251 版本官网插件最高只到 242 版本。建议在 GitHub 搜索 AndroidStudioChineseLanguagePack，下载 242 版本补丁，可兼容 251 版本。
+
+
+步骤 2：封装 SDK 📦
+SDK (Software Development Kit) 即软件开发工具包。我们将创建一个 Library 模块。
+
+
+  创建模块： 文件 (File) → 新建 (New) → New Module → Android Library
+  名称： mylibrary (默认包名 com.example.mylibrary)
+  编写代码： 新建 Java 类 TextUtils
+
+
+public static String createWelcomeMessage(String name) &#123;
+    return "Welcome, " + name + "! (From SDK)";
+&#125;
+
+步骤 3：主工程调用 SDK 🔗
+在主工程中依赖刚才创建的 SDK 模块。
+
+1. 添加依赖 (build.gradle Module: app)：
+dependencies &#123;
+    implementation project(':mylibrary') // 添加这一行
+    // 其他依赖...
+&#125;
+⚠️ 修改 gradle 文件后记得点击 Sync Now 进行同步。
+
+2. 调用方法 (MainActivity.java)：
+import com.example.mylibrary.TextUtils;
+
+&#x2F;&#x2F; …TextView textView &#x3D; findViewById(R.id.helloText);String welcomeMsg &#x3D; TextUtils.createWelcomeMessage(“Android Developer”);textView.setText(welcomeMsg);
+步骤 4：导出 SDK 为 AAR 文件 📤
+AAR (Android Archive) 是一种打包 SDK 文件的格式，方便分享给他人使用。
+
+
+  
+    操作
+    命令/配置
+  
+  
+    生成 AAR
+    ./gradlew :mylibrary:assembleRelease
+  
+  
+    拷贝文件
+    将 mylibrary-release.aar 拷至 app/libs 文件夹
+  
+  
+    修改依赖
+    implementation files('libs/mylibrary-release.aar')
+  
+  
+    配置仓库
+    在 settings.gradle 中添加 flatDir &#123; dirs 'app/libs' &#125;
+  
+
+
+📝 总结
+通过以上步骤，你可以完成：
+
+  ✅ 基础 Android App 开发
+  ✅ SDK 模块封装与调用
+  ✅ AAR 打包与手动集成
+
+
+
+  🎉 完结撒花！Android 开发之旅正式开始！
+]]></content>
+      <categories>
+        <category>新手教程</category>
+      </categories>
+      <tags>
+        <tag>Android Studio</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何优雅地科学上网</title>
     <url>/2026/05/17/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
     <content><![CDATA[请先了解科学上网入门
@@ -485,6 +344,161 @@ Base64编码&#x2F;解码
 
 
 管人痴aHR0cHM6Ly94bi0tZ21xMzk2Z3J6ZC5jb20v]]></content>
+      <categories>
+        <category>新手教程</category>
+      </categories>
+      <tags>
+        <tag>Steam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何优雅地科学上网</title>
+    <url>/2026/05/31/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E8%BF%9B%E7%BB%84/</url>
+    <content><![CDATA[进组前务必先想清楚你为什么要进组！！！你想做什么方向？你对什么方向感兴趣？你对什么方向比较擅长？你对什么方向比较看好？你要选哪个老师？老师本身科研实力强的？实验室可提供资源多的？老师要求高的&#x2F;低的？怎么联系老师？邮件联系？线下面谈？熟人介绍？]]></content>
+      <categories>
+        <category>新手教程</category>
+      </categories>
+      <tags>
+        <tag>本科生</tag>
+        <tag>进组</tag>
+        <tag>科研</tag>
+        <tag>项目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何优雅地安装Steam</title>
+    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
+    <content><![CDATA[
+  🎮 Steam 安装完全指南
+  📝 包教包不会，跟着做就对了！
+
+
+
+🌐 Steam 官网https://store.steampowered.com/
+
+一、下载 SteamSetup.exe 📥
+  下载地址：https://store.steampowered.com/about/
+
+
+操作步骤：
+点击 “安装Steam”
+在弹窗中选择 “另存为”
+选择一个常用的路径，推荐直接保存到 D:\（即D盘）
+
+
+⚠️ 重要提醒
+  ⚠ 路径不要有中文，否则会报错！
+
+
+
+二、安装 Steam 🛠️
+  下载完成后，打开 SteamSetup.exe，依次点击：
+
+
+安装流程：
+
+
+步骤
+操作
+
+
+
+1
+欢迎使用Steam向导：下一步
+
+
+2
+选择语言：保证是简体中文，下一步
+
+
+3
+选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
+
+
+4
+运行Steam：完成
+
+
+5
+正在更新Steam：等待更新结束
+
+
+
+三、下载 Steam_v3.0.0-rc.16_win_x64.exe 📦
+  下载地址：https://steampp.net/
+
+
+操作步骤：
+点击 “下载Windows版”
+选择 “Gitee 下载”
+跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
+滑到最底部，找到下载下面的四行超链接
+点击下载 Steam_v3.0.0-rc.16_win_x64.exe
+同上保存到常用路径，如 D:\
+跳出弹窗：允许更改
+
+
+四、安装 Watt Toolkit（旧名 Steam++）🔧
+  下载完成后，打开 Steam_v3.0.0-rc.16_win_x64.exe，依次点击：
+
+
+安装流程：
+
+
+步骤
+操作
+备注
+
+
+
+1
+Steam++ logo页：右下角自定义安装
+⚠ 千万别点”立即安装”！！！
+
+
+2
+安装位置：选择一个合适的路径
+推荐直接 D:\Steam++，同时创建桌面图标
+
+
+3
+Steam++ logo页：立即体验
+-
+
+
+4
+跳出弹窗：允许访问
+-
+
+
+
+⚙️ 启动加速
+  ✅ 网络加速 → 平台加速 → Steam服务 → 一键加速
+
+
+
+五、登录 Steam 🔐
+  安装完成后，打开 Watt Toolkit，启动加速，再打开 Steam 客户端，依次点击：
+
+
+账号创建流程：
+右边模糊二维码下方：还没有 Steam 账户？创建免费账户
+创建你的账户：自行填写，邮箱可选QQ邮箱以外的
+验证你的邮箱：点击 “验证我的电子邮件地址”
+创建您的账户：自行填写，创建成功会有提示
+回到最开始的登录界面：填写你的账户密码，然后输入邮箱验证码
+登录成功！
+
+
+📝 邮箱选择建议
+  💡 邮箱选择：建议使用 Gmail、Outlook 等国际邮箱，避免使用 QQ 邮箱可能带来的验证问题。
+
+
+
+
+  🎉 完结撒花！
+  Steam 已成功安装并登录，开始你的游戏之旅吧！
+]]></content>
       <categories>
         <category>新手教程</category>
       </categories>
