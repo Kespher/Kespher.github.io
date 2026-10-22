@@ -130,6 +130,435 @@ AAR (Android Archive) 是一种打包 SDK 文件的格式，方便分享给他�
       </tags>
   </entry>
   <entry>
+    <title>如何优雅地科学上网</title>
+    <url>/2026/05/17/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    <content><![CDATA[请先了解科学上网入门
+Clash Verge官网
+Clash Verge仓库
+Base64编码&#x2F;解码
+
+魔戒aHR0cHM6Ly9tb2ppZS5hcHAv
+
+
+良心云aHR0cHM6Ly94bi0tOWtxejIzYjE5ei5jb20v
+
+
+管人痴aHR0cHM6Ly94bi0tZ21xMzk2Z3J6ZC5jb20v]]></content>
+      <categories>
+        <category>新手教程</category>
+      </categories>
+      <tags>
+        <tag>科学上网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何优雅地安装Steam</title>
+    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
+    <content><![CDATA[
+  🎮 Steam 安装完全指南
+  📝 包教包不会，跟着做就对了！
+
+
+
+🌐 Steam 官网https://store.steampowered.com/
+
+一、下载 SteamSetup.exe 📥
+  下载地址：https://store.steampowered.com/about/
+
+
+操作步骤：
+点击 “安装Steam”
+在弹窗中选择 “另存为”
+选择一个常用的路径，推荐直接保存到 D:\（即D盘）
+
+
+⚠️ 重要提醒
+  ⚠ 路径不要有中文，否则会报错！
+
+
+
+二、安装 Steam 🛠️
+  下载完成后，打开 SteamSetup.exe，依次点击：
+
+
+安装流程：
+
+
+步骤
+操作
+
+
+
+1
+欢迎使用Steam向导：下一步
+
+
+2
+选择语言：保证是简体中文，下一步
+
+
+3
+选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
+
+
+4
+运行Steam：完成
+
+
+5
+正在更新Steam：等待更新结束
+
+
+
+三、下载 Steam_v3.0.0-rc.16_win_x64.exe 📦
+  下载地址：https://steampp.net/
+
+
+操作步骤：
+点击 “下载Windows版”
+选择 “Gitee 下载”
+跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
+滑到最底部，找到下载下面的四行超链接
+点击下载 Steam_v3.0.0-rc.16_win_x64.exe
+同上保存到常用路径，如 D:\
+跳出弹窗：允许更改
+
+
+四、安装 Watt Toolkit（旧名 Steam++）🔧
+  下载完成后，打开 Steam_v3.0.0-rc.16_win_x64.exe，依次点击：
+
+
+安装流程：
+
+
+步骤
+操作
+备注
+
+
+
+1
+Steam++ logo页：右下角自定义安装
+⚠ 千万别点”立即安装”！！！
+
+
+2
+安装位置：选择一个合适的路径
+推荐直接 D:\Steam++，同时创建桌面图标
+
+
+3
+Steam++ logo页：立即体验
+-
+
+
+4
+跳出弹窗：允许访问
+-
+
+
+
+⚙️ 启动加速
+  ✅ 网络加速 → 平台加速 → Steam服务 → 一键加速
+
+
+
+五、登录 Steam 🔐
+  安装完成后，打开 Watt Toolkit，启动加速，再打开 Steam 客户端，依次点击：
+
+
+账号创建流程：
+右边模糊二维码下方：还没有 Steam 账户？创建免费账户
+创建你的账户：自行填写，邮箱可选QQ邮箱以外的
+验证你的邮箱：点击 “验证我的电子邮件地址”
+创建您的账户：自行填写，创建成功会有提示
+回到最开始的登录界面：填写你的账户密码，然后输入邮箱验证码
+登录成功！
+
+
+📝 邮箱选择建议
+  💡 邮箱选择：建议使用 Gmail、Outlook 等国际邮箱，避免使用 QQ 邮箱可能带来的验证问题。
+
+
+
+
+  🎉 完结撒花！
+  Steam 已成功安装并登录，开始你的游戏之旅吧！
+]]></content>
+      <categories>
+        <category>新手教程</category>
+      </categories>
+      <tags>
+        <tag>Steam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vibe Coding分享会</title>
+    <url>/2026/10/22/Vibe-Coding%E5%88%86%E4%BA%AB%E4%BC%9A/</url>
+    <content><![CDATA[Vibe Coding分享会0.这次分享会的背景开学以来，我们已先后进行了三次分享，分别围绕科学上网、Google 产品的使用，以及 Git 与 GitHub 的交互操作展开。通过这几次分享，大家接触并积累了不少专业术语，包括我在内却普遍感到尚未真正动手做出属于自己的成果。
+本次分享会就是帮助大家把脑海中的知识真正落地。
+为了使过程更加有趣、也便于集中讲解，我们特别挑选了一个颇具趣味性的项目——“让朋友在你的电脑里赛博永生”。
+一、Vibe Coding是什么？用自然语言指挥 AI 写代码、凭感觉验收，而不是亲手敲代码。
+提出：2025 年 2 月，前特斯拉 AI 负责人、OpenAI 创始成员 Andrej Karpathy（安德烈・卡帕西） 在 X（推特）上首次提出并带火了这个词。他形容这是一种 “完全跟随感觉” 的编程方式 —— 把想法说清楚交给 AI，自己几乎不碰键盘。
+适合人群想把想法快速变成可用程序的人，以及不想被代码细节拖住的人。
+非技术背景者（产品、设计、运营、业务人员）独立开发者 &#x2F; 创业者
+
+编程新手：可作为学习辅助——看 AI 生成的代码理解思路，但不宜完全依赖，否则基本功和排错能力难以建立。
+
+底层逻辑一句话理解：Vibe Coding 工具链 &#x3D; AI 模型（大脑）＋ Agent（手脚）＋ 使用界面（聊天窗口&#x2F;终端）。
+
+1. 最底层：LLM模型
+Claude、GPT、Gemini、千问、DeepSeek 最初都指背后的大语言模型（LLM）。聊天网站本身没有智能，只是把请求，也就是用户问的话转发给模型，模型在后端思考，再把回复以文字方式展示出来。
+2. 最早的 Vibe Coding：聊天窗口（它说你做）
+在聊天框描述需求 → AI 返回代码 → 手动复制粘贴运行 → 报错再把信息粘回去，来回几十次，效率很低。
+3. 关键拼图：Agent（你说它做）
+AI 跑在厂商服务器上，碰不到你电脑里的文件。Agent 是跑在本地电脑上的程序，能读写文件、执行命令——相当于 AI 的“手”。协作方式：AI 回复特殊格式 Function Calling（JSON 指令），Agent 识别指令并执行。
+形象地说：LLM 是“大脑”，负责思考和生成内容；Agent 是“身体”，负责读写文件、执行命令，把想法真正落地。
+agent开发会比LLM更简单，所以有很多厂商还有GitHub上各种个人开源项目。
+4. JSON 是什么？
+JSON 是电脑之间传话的一种“标准便签格式”，按“名字：内容”成对记信息。AI 给 Agent 下指令时就写这种便签，比如 {“action”: “read”, “file”: “main.py”} 意思是“去读一下 main.py 这个文件”，Agent 一看就懂，立刻照做。
+5. 现在的工具生态
+厂商出品：Claude Code、Codex、Google Antigravity；第三方：Cursor、Copilot；开源：OpenCode 等。Agent 与模型可自由搭配：如 OpenCode 接 Claude，国内也常用 Claude Code &#x2F; Codex 接国产模型。
+Agent 与模型可以自由搭配组合，但从实际体验看，同厂商的原生组合（原生模型 + Agent）配合更默契、效果更稳定。
+
+
+
+
+
+
+
+
+
+二、GPT准备工作1、VPNSakuraCat官网：https://sakuracat-b.com/dashboard
+魔戒net：https://mojie.now/login
+买微量X基础节点→下载客户端→在代理中选择全局，然后选择合适节点→打开系统代理
+整体管理VPN——Clash Verge(Github上下载）
+2、Chatgpt代充苹果手机
+1.注册美区苹果ID在手机上下载快喵VPN和chatgpt 登录
+2.购买礼品卡【淘宝】https://e.tb.cn/h.j1h0s3xx4qi5Kt3?tk=s1SCTs6x7A7 HU293 「苹果商店美区苹果礼品卡iphone美国区2&#x2F;3&#x2F;5&#x2F;15ios充值美区礼品卡」
+点击链接直接打开 或者 淘宝搜索直接打开
+3、兑换方法苹果美区礼品卡购买方法大全，购买&#x2F;兑换&#x2F;使用全流程手把手指导，
+其他手机
+法1、办万事达卡法2、代充商家不靠谱，遇到问题or稳定性不好or直接封号
+https://aichongzhi.org
+稍微贵一点，有问题找客服，只做分享。
+客服分享的充值流程：
+go跟plus ，还有 pro都是一样的
+建议收藏我们的网址，方便下月充值，
+官网店铺链接（浏览器打开，不用微信打开）：qfcc99.com&#x2F;shop&#x2F;BFB74B07
+
+
+
+
+
+
+充值后会员没到账的，在升级页面点一下，然后刷新就可以了
+充值后会员没到账的，在升级页面点一下，然后刷新就可以了
+↓      ↓      ↓      ↓
+
+三、VScode准备工作（之后才需要）vscode＋Claudecode＋DeepSeek V4-pro1、VScode下载官网地址：https://code.visualstudio.com/ 
+下载页直达：https://code.visualstudio.com/Download
+
+
+
+打开页面会自动识别你的系统（Windows &#x2F; Mac &#x2F; Linux），直接点下载即可。
+
+
+
+版本怎么选WindowsUser Installer（推荐绝大多数人）：VSCodeUserSetup-x64.exe
+
+
+
+Mac直接下载 .dmg，Apple 芯片（M 系列）和 Intel 芯片通用包（Universal）
+LinuxUbuntu&#x2F;Debian：.deb；Fedora：.rpm
+2、Claude code插件在扩展界面搜索Claude Code，安装
+
+3、CC switch下载ccswitch是什么：CC Switch 是一个开源桌面工具，用来在 Claude Code、Codex 等 AI 编程工具（agent）之间一键切换模型供应商（例如把 Claude Code 背后换成 DeepSeek 等国产模型），还能统一管理 MCP、Skills、用量统计等配置，免去手动改配置文件的麻烦。
+官网：https://ccswitch.co/zh/（官方中文站，Windows &#x2F; Mac &#x2F; Linux 均可下载）
+安装后打开，在界面里添加 Claude Code，再配置好 DeepSeek 等供应商，即可一键切换，不用再手改配置文件。
+4、Deepseek API接入官网：https://www.deepseek.com/
+
+API开放平台
+
+API keys 创建密钥，复制
+
+打开CCswitch（右上角加号）
+
+选择deep seek模型，粘贴密钥，添加
+
+完成！
+三、正式开始简单版（codex pet)1、创建项目文件夹desktop-pet
+2、在codex里面打开文件夹3、下载skill$skill Installer hatch-pet
+
+4、正式开始$hatch-pet 根据我上传的照片制作 Codex 桌宠，风格搞笑可爱，Q 版。
+第一步：先只生成一张 Q 版角色设定图（正面、侧面、背面，加开心、惊讶两个表情，以及一个双膝跪地、双手撑地的爬行姿势）。不写简报，不做别的，生成后停下来等我确认。
+我确认后，请用最快的方式一次性做完，中间不要再问我：
+
+只做标准 9 行图集，不做 16 向环视
+
+左右移动用双膝跪地、双手撑地的爬行；失败行画成趴地装死
+
+不生成 GIF、MP4、预览图和验证报告，不写长说明
+
+出图失败或网络断线，直接重试，不要停下
+
+只生成 pet.json 和 spritesheet.webp，装进 ~&#x2F;.codex&#x2F;pets&#x2F; 对应文件夹做完只告诉我宠物名字和怎么选中。
+
+
+
+之后确认人物设定图，等待完成。
+
+有什么问题截图发给AI修复会更方便，以图片方式去展示。
+进阶版本可选择换VScode或者继续在codex里改
+💪方向一：双击爬行到指定位置具体要求：
+用户在 Windows 桌面的任意空白位置双击鼠标左键，
+
+桌宠就会自动移动到双击的位置。
+
+移动过程中，必须播放现有的爬行动画。
+
+向左移动播放 running-left，
+向右移动播放 running-right。
+
+根据目标位置自动判断移动方向。
+
+移动速度保持平滑自然，不要瞬间传送。
+
+到达目标位置后，自动切换回 idle 待机动画。
+
+如果桌宠正在移动，用户再次双击其他位置，
+
+
+则更新目标位置。
+
+桌宠不能移动到屏幕范围之外。
+
+保留原来的鼠标拖拽、随机动画、
+
+
+点击惊吓和右键菜单功能。
+
+优先复用现有 main.js 中的移动逻辑，
+
+不要重新编写整个项目。
+🧠 方向二：接入扣子（Coze）——让桌宠拥有 AI 大脑实现效果：
+让桌宠从随机弹出固定语录，升级为真正的 AI 对话。
+
+可以自定义朋友的性格、说话风格和口头禅。
+
+能够回答问题、陪伴聊天，甚至辅助学习。
+
+可以根据聊天内容触发不同的表情和动作。
+
+
+大致实现流程：
+创建智能体：在扣子平台创建 AI 智能体，设置角色性格和对话风格。
+
+获取 API：将智能体发布到支持 API 调用的渠道，获取相应的调用凭证。
+
+连接桌宠：让 Codex 编写接口调用代码，创建.env文件，写入API Token和Bot ID,将桌宠与扣子连接。
+
+
+可以对 AI 说：【请在现有桌宠项目中接入扣子 AI 智能体，实现聊天功能。用户点击桌宠后可以输入问题，程序调用扣子 API 获取回复，并通过桌宠对话气泡展示。API 密钥不要写在代码中。】
+🎤 方向三：AI 语音交互——让桌宠能听会说实现效果：
+用户可以直接通过麦克风与桌宠交流。
+
+桌宠能够识别用户说的话。
+
+AI 根据用户的问题生成回答。
+
+桌宠通过语音朗读回答，实现双向语音交流。
+
+
+大致实现流程：
+语音识别（ASR）：调用语音识别服务，将麦克风录制的声音转换成文字。
+
+AI 对话：将识别出的文字发送给扣子智能体，生成回复。
+
+语音合成（TTS）：调用语音合成服务，将 AI 回复转换成语音。
+
+桌宠播放：通过电脑扬声器播放语音，同时显示对话气泡。
+
+
+可以对AI说：【请为现有桌宠添加 AI 语音交互功能。用户点击麦克风按钮后开始录音，通过 ASR 将语音转换为文字，再发送给扣子 AI 智能体生成回复，最后通过 TTS 将回复转换成语音播放，同时显示文字气泡。请支持麦克风权限管理和停止录音。】
+错误尝试版（时间更长）（效果非常差）1、创建项目文件夹Desktop pet
+2、安装skill在底部的聊天输入框里输入 【$skill-installer hatch-pet】，发送，让 Codex 帮你装。
+装好后，再在聊天输入框里打 $，应该能看到 hatch-pet。
+3、在codex里面打开文件夹4、创建人物设定图
+确认好用上skill
+【$hatch-pet 根据我上传的这张照片制作桌宠，风格要搞笑、有喜感、能吸引路人注意。
+先只做第一步：生成 Q 版角色设定图，包含：
+
+正面、侧面、背面
+
+开心、困倦、惊讶、生气 4 个表情
+
+双膝跪地、双手撑地的爬行姿势（向左爬、向右爬各一张，表情要夸张搞笑）
+
+再加 3 个搞笑姿势，比如趴地装死、被点击时的惊吓弹起、摆烂躺平
+
+
+背景透明或纯色。先不要生成动画帧，也不要安装或打包。
+另外请告诉我：桌宠能否实现“我用鼠标点击桌面某处，他就爬到那里”？如果 hatch-pet 做不到，说明替代方案。
+做完后把图展示给我，等我确认后再继续。】
+
+5、创建角色简报【设定图确认。在生成动画帧之前，请先出一份角色简报给我看：
+
+角色名字和一句话人设（要搞笑、吸引路人）
+
+外观特征（发型、帽子、裙子、配色）
+
+动作清单：每个动作的名称、帧数、表现内容
+
+最终素材的输出格式和文件夹结构
+
+
+我确认后你再开始生成动画帧。】
+
+6、创建动画素材【设定图确认，简报确认，开始生成动画素材。
+这是给独立 Electron 桌宠用的，不是给 Codex 宠物用的，请按最省事的方式做：
+
+只做这几个动作：待机、向左爬、向右爬、装死、惊吓弹起、摆烂躺平
+
+不要做 16 向环视，不要做 MP4，不要做全状态预览和验证报告
+
+只输出：一张 spritesheet、一个记录每行动作名称&#x2F;帧数&#x2F;播放速度的 JSON、每个动作一个预览 GIF
+
+不要安装到 Codex 宠物目录
+
+中途遇到出图失败，直接重试，不要停下来问我
+
+
+做完告诉我素材所在的文件夹。】
+
+
+7、最后一步【素材确认。请在 desktop pet 文件夹里新建 electron-pet 子目录，用 Electron 做一个 Windows 桌宠程序，直接使用 output&#x2F;pets&#x2F;maomao-papa&#x2F;final 里的 spritesheet 和 animations.json（按 json 里的行、帧数、速度播放，不要重新生成图）：
+
+透明、无边框、置顶窗口，不在任务栏显示，窗口只有角色那么大
+
+平时播放待机动画，隔一段随机时间播放装死或摆烂躺平，然后回到待机
+
+按住 Ctrl 并点击屏幕任意位置，宠物朝那里移动，往右播放向右爬，往左播放向左爬，到了切回待机
+
+直接点击宠物：播放惊吓弹起，然后回到待机；可以用鼠标拖动宠物
+
+右键菜单：爬到这里、退出
+
+做好后运行一次，确认没报错，告诉我 npm start 怎么启动，以及怎么打包成 exe】
+
+
+
+
+
+
+四、复盘五、抽奖环节请大家扫描二维码，五分钟后会开奖。
+一等奖：一个月 ChatGPT Go会员
+二等奖：DeepSeek调用金额 50元报销
+三等奖：DeepSeek调用金额 20元报销
+可兑换红包
+]]></content>
+  </entry>
+  <entry>
     <title>eat福州</title>
     <url>/2026/02/05/eat%E7%A6%8F%E5%B7%9E/</url>
     <content><![CDATA[
@@ -327,169 +756,6 @@ AAR (Android Archive) 是一种打包 SDK 文件的格式，方便分享给他�
       <tags>
         <tag>福州</tag>
         <tag>美食</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何优雅地安装Steam</title>
-    <url>/2026/02/05/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E5%AE%89%E8%A3%85Steam/</url>
-    <content><![CDATA[
-  🎮 Steam 安装完全指南
-  📝 包教包不会，跟着做就对了！
-
-
-
-🌐 Steam 官网https://store.steampowered.com/
-
-一、下载 SteamSetup.exe 📥
-  下载地址：https://store.steampowered.com/about/
-
-
-操作步骤：
-点击 “安装Steam”
-在弹窗中选择 “另存为”
-选择一个常用的路径，推荐直接保存到 D:\（即D盘）
-
-
-⚠️ 重要提醒
-  ⚠ 路径不要有中文，否则会报错！
-
-
-
-二、安装 Steam 🛠️
-  下载完成后，打开 SteamSetup.exe，依次点击：
-
-
-安装流程：
-
-
-步骤
-操作
-
-
-
-1
-欢迎使用Steam向导：下一步
-
-
-2
-选择语言：保证是简体中文，下一步
-
-
-3
-选择目标文件夹：选择一个合适的路径，推荐直接 D:\Steam
-
-
-4
-运行Steam：完成
-
-
-5
-正在更新Steam：等待更新结束
-
-
-
-三、下载 Steam_v3.0.0-rc.16_win_x64.exe 📦
-  下载地址：https://steampp.net/
-
-
-操作步骤：
-点击 “下载Windows版”
-选择 “Gitee 下载”
-跳转到新网页：https://gitee.com/rmbgame/SteamTools/releases/tag/3.0.0-rc.16
-滑到最底部，找到下载下面的四行超链接
-点击下载 Steam_v3.0.0-rc.16_win_x64.exe
-同上保存到常用路径，如 D:\
-跳出弹窗：允许更改
-
-
-四、安装 Watt Toolkit（旧名 Steam++）🔧
-  下载完成后，打开 Steam_v3.0.0-rc.16_win_x64.exe，依次点击：
-
-
-安装流程：
-
-
-步骤
-操作
-备注
-
-
-
-1
-Steam++ logo页：右下角自定义安装
-⚠ 千万别点”立即安装”！！！
-
-
-2
-安装位置：选择一个合适的路径
-推荐直接 D:\Steam++，同时创建桌面图标
-
-
-3
-Steam++ logo页：立即体验
--
-
-
-4
-跳出弹窗：允许访问
--
-
-
-
-⚙️ 启动加速
-  ✅ 网络加速 → 平台加速 → Steam服务 → 一键加速
-
-
-
-五、登录 Steam 🔐
-  安装完成后，打开 Watt Toolkit，启动加速，再打开 Steam 客户端，依次点击：
-
-
-账号创建流程：
-右边模糊二维码下方：还没有 Steam 账户？创建免费账户
-创建你的账户：自行填写，邮箱可选QQ邮箱以外的
-验证你的邮箱：点击 “验证我的电子邮件地址”
-创建您的账户：自行填写，创建成功会有提示
-回到最开始的登录界面：填写你的账户密码，然后输入邮箱验证码
-登录成功！
-
-
-📝 邮箱选择建议
-  💡 邮箱选择：建议使用 Gmail、Outlook 等国际邮箱，避免使用 QQ 邮箱可能带来的验证问题。
-
-
-
-
-  🎉 完结撒花！
-  Steam 已成功安装并登录，开始你的游戏之旅吧！
-]]></content>
-      <categories>
-        <category>新手教程</category>
-      </categories>
-      <tags>
-        <tag>Steam</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何优雅地科学上网</title>
-    <url>/2026/05/17/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
-    <content><![CDATA[请先了解科学上网入门
-Clash Verge官网
-Clash Verge仓库
-Base64编码&#x2F;解码
-
-魔戒aHR0cHM6Ly9tb2ppZS5hcHAv
-
-
-良心云aHR0cHM6Ly94bi0tOWtxejIzYjE5ei5jb20v
-
-
-管人痴aHR0cHM6Ly94bi0tZ21xMzk2Z3J6ZC5jb20v]]></content>
-      <categories>
-        <category>新手教程</category>
-      </categories>
-      <tags>
-        <tag>科学上网</tag>
       </tags>
   </entry>
   <entry>
